@@ -1,11 +1,20 @@
 body {
     font-size: 3em;
+    font-family: "Benton Sans","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    
 }
 
-.embed-responsive{
-    margin-top: 40px;
+.navbar-brand {
+    font-size: 2em;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+  
+}
+
+/* .embed-responsive{
+    margin-top: 20px;
    
- }
+ } */
 
  .band-image {
     display: block;
@@ -13,20 +22,49 @@ body {
     width: 100%;
 }
 
+.title {
+    margin: 40px;
+}
+
  h1 {
-    font-size: 3em;
+    font-size: 2em;
+    font-family: 'Exo 2', sans-serif;
+    margin: 20px 0 30px 0;
 }
 
 .label {
     font-size: 100%;
 }
 
+.dl-horizontal dt {
+    width: 227px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
 
 .dl-horizontal dd {
     margin-left: 340px;
+    /* font-weight: 400; */
+    color:lightslategray;
 }
 
 
 
+dd, dt {
+    line-height: 2.428571;
+}
+
+.info {
+    margin: 40px;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    /* font-weight: 700; */
+    /* border: solid lightslategrey 2px; */
+}
+
+/* 
+.btn {
+    width: 70px;
+} */
 
